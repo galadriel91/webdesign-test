@@ -66,6 +66,32 @@ header{
     color: #000;
 }
 
+.submenu{
+    float: left;
+    width: 180px;
+    height: 100%;
+    left: 180px;
+    top: 0px;
+    position: absolute;
+    background-color: #ccc;
+    display: none;
+    z-index: 1;
+}
+
+.submenu > li > a{
+    width: 180px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #ccc;
+    color: #fff;
+}
+
+.submenu > li > a:hover{
+    background: #999;
+    color: #ffff00;
+}
 
 .Wrap{
     float: right;
