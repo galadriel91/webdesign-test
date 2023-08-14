@@ -19,6 +19,7 @@ a{
 
 header{
     float: left;
+    position: absolute;
 }
 
 .top{
@@ -37,7 +38,34 @@ header{
 
 .menu{
     float: left;
+    position: absolute;
+    top: 100px;
+    left: 10px;
+    text-align: center;
+    z-index: 1;
 }
+
+.navi > li{
+    float: left;
+    width: 180px;
+}
+
+.navi > li > a{
+    float: left;
+    width: 180px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #333;
+    color: #fff;
+}
+
+.navi > li > a:hover{
+    background-color: #eee;
+    color: #000;
+}
+
 
 .Wrap{
     float: right;
