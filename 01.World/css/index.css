@@ -263,18 +263,45 @@ footer{
     width: 800px;
     height: 100px;
 }
+.bottom{
+    float: right;
+    width: 800px;
+    height: 100px;
+    background-color: #ccc;
+}
+
 .ftLogo{
     float: left;
     width: 200px;
-    height: 100%;
+    height: 100px;
 }
+.ftLogo img{
+    float: left;
+    width: 200px;
+    height: 40px;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+
 .ftCopy{
     float: left;
     width: 400px;
     height: 100%;
+    text-align: center;
+    font-size: 14px;
+    line-height: 100px;
 }
 .ftFamily{
     float: left;
     width: 200px;
     height: 100%;
+}
+
+.ftFamily select{
+    float: right;
+    height: 30px;
+    width: 190px;
+    margin-top: 20px;
+    margin-right: 10px;
+    font-size: 14px;
 }
