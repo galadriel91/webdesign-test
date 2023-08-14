@@ -1,0 +1,93 @@
+@charset 'utf-8';
+/* CSS Document */
+*{
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    color: #333;
+}
+body{
+    width: 1000px;
+    height: 650px;
+    background-color: #fff;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    display: block;
+}
+
+header{
+    float: left;
+}
+
+.top{
+    float: left;
+    height: 650px;
+    width: 200px;
+}
+
+.logo{
+    float: left;
+    width: 200px;
+    height: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.menu{
+    float: left;
+}
+
+.Wrap{
+    float: right;
+    width: 800px;
+}
+
+.imgSlide{
+    width: 800px;
+    height: 350px;
+}
+
+.contents{
+    width: 800px;
+    height: 200px;
+}
+
+.notice{
+    float: left;
+    width: 300px;
+    height: 100%;
+}
+
+.gallery{
+    float: left;
+    width: 300px;
+    height: 100%;
+}
+
+.shortcut{
+    float: left;
+    width: 200px;
+    height: 100%;
+}
+
+footer{
+    width: 800px;
+    height: 100px;
+}
+.ftLogo{
+    float: left;
+    width: 200px;
+    height: 100%;
+}
+.ftCopy{
+    float: left;
+    width: 400px;
+    height: 100%;
+}
+.ftFamily{
+    float: left;
+    width: 200px;
+    height: 100%;
+}
