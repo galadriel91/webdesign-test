@@ -37,6 +37,56 @@ header{
     float: right;
     width: 800px;
     height: 100px;
+    z-index: 1;
+}
+
+.navi{
+    float: right;
+    margin-top: 30px;
+    margin-right: 10px;
+}
+
+.navi>li{
+    float: left;
+}
+
+.navi>li>a{
+    width: 180px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+}
+
+.navi > li > a:hover{
+    background-color: #30a3f3;
+}
+
+.submenu{
+    width: 180px;
+    height: 160px;
+    position: absolute;
+    display: none;
+    z-index: 1;
+    background: #ffffff;
+}
+
+.submenu > li > a{
+    width: 180px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    background: #fff;
+    color: #333;
+}
+
+.submenu > li > a:hover{
+    background-color: #30a3f3;
 }
 
 .bodyWrap{
