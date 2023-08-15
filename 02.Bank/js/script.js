@@ -4,4 +4,14 @@ jQuery(document).ready(function(){
     }).mouseout(function(){
         $('.submenu').stop().slideUp(500);
     })
+
+    setInterval(function(){
+        $('.slidelist').delay(2000);
+        $('.slidelist').animate({marginLeft : -1200});
+        $('.slidelist').delay(2000);
+        $('.slidelist').animate({marginLeft : -2400});
+        $('.slidelist').delay(2000);
+        $('.slidelist').animate({marginLeft : 0});
+        $('.slidelist').delay(2000);
+    })
 })

@@ -97,6 +97,30 @@ header{
 .imgslide{
     width: 1200px;
     height: 300px;
+    position: relative;
+    overflow: hidden;
+}
+
+.slidelist{
+    width: 3600px;
+}
+
+.slidelist ul li{
+    width: 1200px;
+    float: left;
+}
+
+.slidelist span{
+    width: 500px;
+    height: 50px;
+    position: absolute;
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+    line-height: 50px;
+    background-color: rgba(40, 40, 40, .5);
+    margin-left: 350px;
+    margin-top: 125px;
 }
 
 .contents{
