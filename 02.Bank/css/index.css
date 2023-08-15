@@ -344,3 +344,50 @@ footer{
     font-size: 16px;
     line-height: 50px;
 }
+
+#layer{
+    position: absolute;
+    z-index: 1;
+    display: none;
+}
+
+#layer.active{
+    display: block;
+}
+
+.layer_up{
+    width: 500px;
+    height: 400px;
+    position: fixed;
+    left: 30%;
+    top: 20%;
+    background-color: #fff;
+}
+
+.uptitle{
+    margin-top: 30px;
+    text-align: center;
+    line-height: 16px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.upbody{
+    padding: 30px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.btn{
+    width: 80px;
+    height: 20px;
+    display: block;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    background: #cccccc;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}

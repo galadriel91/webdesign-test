@@ -23,4 +23,11 @@ jQuery(document).ready(function(){
         return false
         })
     })
+
+    $('.notice li:first').click(function(){
+        $('#layer').addClass('active')
+    })
+    $('.btn').click(function(){
+        $('#layer').removeClass('active')
+    })
 })
